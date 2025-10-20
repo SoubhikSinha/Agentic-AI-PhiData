@@ -14,6 +14,10 @@ os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+'''
+NOTE : By default, Agent() method considers OpenAI model - until specified otherwise.
+'''
+
 # Creating Web-Search Agent
 web_search_agent=Agent(
     name="Web Search Agent", # Agent Name
