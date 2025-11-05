@@ -13,3 +13,5 @@ pgvector
 psycopg[binary]
 pypdf
 pytesseract
+streamlit
+google-generativeai
